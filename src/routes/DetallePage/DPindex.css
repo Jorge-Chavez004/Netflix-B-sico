@@ -1,0 +1,43 @@
+#dark-section {
+    display: flex;
+    height: 500px;
+    width: 95%;
+    margin: auto;
+    background-color: black;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos al inicio verticalmente */
+    box-sizing: border-box; /* Incluye padding y border en el cálculo del tamaño total */
+}
+
+.divLeft{
+    width: 600px;
+    padding-left: 20px;
+}
+
+.image_content {
+    height: 450px;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center; /* Centra la imagen verticalmente */
+    overflow: hidden; /* Evita que la imagen se desborde del contenedor */
+    padding-right: 20px; /* Espaciado interno opcional */
+    margin: auto;
+}
+
+.image_content img {
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+    max-height: 100%; /* La imagen no excederá la altura del contenedor */
+    width: auto; /* Mantiene la proporción de la imagen */
+    height: auto;
+    display: block; /* Elimina espacios en línea indeseados */
+    object-fit: cover; /* La imagen cubrirá completamente el contenedor, recortando si es necesario */
+}
+.parrafo-data{
+    color: white;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.parrafo-des{
+    color: white;
+    margin-right: 0.5rem;
+}
